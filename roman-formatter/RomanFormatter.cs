@@ -31,30 +31,30 @@ namespace RomanFormatter
         }
 
         private static string ToRomanThousands(int quantity) =>
-            new String('M', quantity);
+            RepeatSymbol('M', quantity);
 
         private static string ToRomanHundreds(int quantity) =>
-            ToRomanSymbols(
+            ToSymbols(
                 quantity,
                 oneSymbol: 'C',
                 fiveSymbol: 'D',
-                tenSymbol:'M');
+                tenSymbol: 'M');
 
         private static string ToRomanTens(int quantity) =>
-            ToRomanSymbols(
+            ToSymbols(
                 quantity,
                 oneSymbol: 'X',
                 fiveSymbol: 'L',
-                tenSymbol:'C');
+                tenSymbol: 'C');
 
         private static string ToRomanUnits(int quantity) =>
-            ToRomanSymbols(
+            ToSymbols(
                 quantity,
                 oneSymbol: 'I',
                 fiveSymbol: 'V',
-                tenSymbol:'X');
+                tenSymbol: 'X');
 
-        private static string ToRomanSymbols(
+        private static string ToSymbols(
             int quantity,
             char oneSymbol,
             char fiveSymbol,
@@ -65,20 +65,26 @@ namespace RomanFormatter
                 case 1: // I
                 case 2: // II
                 case 3: // III
-                    return new String(oneSymbol, quantity);
+                    return RepeatSymbol(oneSymbol, quantity);
+
                 case 4: // IV
-                    return new String(oneSymbol, 1) + new String(fiveSymbol, 1);
+                    return $"{oneSymbol}{fiveSymbol}";
+
                 case 5: // V
-                    return new String(fiveSymbol, 1);
                 case 6: // VI
                 case 7: // VII
                 case 8: // VIII
-                    return new String(fiveSymbol, 1) + new String(oneSymbol, quantity % 5);
+                    return $"{fiveSymbol}{RepeatSymbol(oneSymbol, quantity % 5)}";
+
                 case 9: // IX
-                    return new String(oneSymbol, 1) + new String(tenSymbol, 1);
+                    return $"{oneSymbol}{tenSymbol}";
+
                 default:
                     return string.Empty;
             }
         }
+
+        private static string RepeatSymbol(char symbol, int count) =>
+            new string(symbol, count);
     }
 }
