@@ -23,3 +23,8 @@ Credits to [Bobby Johnson](https://github.com/notmyself/GildedRose) for the star
     - Use [factory pattern](https://refactoring.guru/design-patterns/factory-method) to setup the items
     - Use composition instead of inheritance ([strategy pattern](https://refactoring.guru/design-patterns/strategy)) and compare
 - Support new conjured items
+
+## Refactoring changelog
+
+- for replaced by foreach
+- UpdateItem(Item) extracted
