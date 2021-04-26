@@ -1,7 +1,7 @@
 # Gilded Rose
 
 Code for coding kata about refactoring (C#).  
-Credits to [Bobby Johnson](https://github.com/notmyself/GildedRose) for the starter.
+Credits to [Emily Bache](https://github.com/emilybache/GildedRose-Refactoring-Kata) for the starter.
 
 ## Setup
 
@@ -11,15 +11,10 @@ Credits to [Bobby Johnson](https://github.com/notmyself/GildedRose) for the star
 
 ## Changelog
 
-- Functional tests added: given requirements covered
-- First snapshot test added: one real execution covered
-- **Program code not touched**
+- **Legacy code not touched**
+- Approval test started
 
 ## TODO
 
-- Understand and add snapshot tests
-- Refactor the legacy code. Ideas :
-    - Use inheritance to define different behaviours
-    - Use [factory pattern](https://refactoring.guru/design-patterns/factory-method) to setup the items
-    - Use composition instead of inheritance ([strategy pattern](https://refactoring.guru/design-patterns/strategy)) and compare
-- Support new conjured items
+- Complete the approval test ([characterization test](https://en.wikipedia.org/wiki/Characterization_test))
+- Refactor the legacy code
