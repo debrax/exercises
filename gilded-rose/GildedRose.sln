@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.App", "GildedRose.App\GildedRose.App.csproj", "{54C94ACB-643B-4A8E-BAEB-DFA98D53E9A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{54C94ACB-643B-4A8E-BAEB-DFA98D53E9A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.Test", "GildedRose.Test\GildedRose.Test.csproj", "{0C263A27-23C7-4790-AF6F-625C1D6AA37B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{0C263A27-23C7-4790-AF6F-625C1D6AA37B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

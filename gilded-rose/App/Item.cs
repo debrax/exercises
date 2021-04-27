@@ -1,5 +1,6 @@
-namespace GildedRose.App
+namespace App
 {
+    // Can't touch this
     public class Item
     {
         public string Name { get; set; }
