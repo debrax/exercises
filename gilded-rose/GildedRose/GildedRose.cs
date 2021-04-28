@@ -24,12 +24,8 @@ namespace GildedRose
             switch (item.Name)
             {
                 case "Aged Brie":
-                    IncreaseQuality(item);
-                    DecreaseSellIn(item);
-                    if (item.SellIn < 0)
-                    {
-                        IncreaseQuality(item);
-                    }
+                    var updater = new BrieUpdater();
+                    updater.UpdateItem(item);
                     break;
                 case "Backstage passes to a TAFKAL80ETC concert":
                     IncreaseQuality(item);
@@ -44,7 +40,7 @@ namespace GildedRose
                     DecreaseSellIn(item);
                     if (item.SellIn < 0)
                     {
-                        item.Quality = 0;
+                        ResetQuality(item);
                     }
                     break;
                 case "Sulfuras, Hand of Ragnaros":
@@ -58,6 +54,11 @@ namespace GildedRose
                     }
                     break;
             }
+        }
+
+        private static void ResetQuality(Item item)
+        {
+            item.Quality = 0;
         }
 
         private static void IncreaseQuality(Item item)
