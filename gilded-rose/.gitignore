@@ -1,2 +1,8 @@
-bin
-obj
+packages
+TestResults
+GildedRose/bin
+GildedRose/obj
+GildedRose.Test/bin
+GildedRose.Test/obj
+**.csproj.user
+.vs

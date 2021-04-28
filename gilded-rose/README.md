@@ -5,16 +5,16 @@ Credits to [Emily Bache](https://github.com/emilybache/GildedRose-Refactoring-Ka
 
 ## Setup
 
-- .NET 5.0 SDK
-- `dotnet run -p GildedRose.App` (console app)
-- `dotnet watch -p GildedRose.Test test` (xUnit tests)
+- .NET Framework 4.7
+- GildedRose: console app with legacy code
+- GildedRose.Test: test project (Approval)
 
 ## Changelog
 
 - **Legacy code not touched**
-- Approval test started
+- Approval tests added
 
 ## TODO
 
-- Complete the approval test ([characterization test](https://en.wikipedia.org/wiki/Characterization_test))
+- Fix the approval tests ([characterization test](https://en.wikipedia.org/wiki/Characterization_test))
 - Refactor the legacy code

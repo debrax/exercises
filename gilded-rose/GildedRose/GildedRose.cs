@@ -1,8 +1,7 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace App
+namespace GildedRose
 {
-    // Keep this for non regression
     public class GildedRose
     {
         IList<Item> Items;
@@ -12,6 +11,7 @@ namespace App
             this.Items = Items;
         }
 
+        // Legacy code to improve
         public void UpdateQuality()
         {
             for (var i = 0; i < Items.Count; i++)

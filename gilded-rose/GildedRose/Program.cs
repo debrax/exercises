@@ -1,13 +1,12 @@
 ﻿using System.Collections.Generic;
 
-namespace App
+namespace GildedRose
 {
-    // Can't touch this
-    public class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            IList<Item> Items = new List<Item>
+            var items = new List<Item>
             {
                 new Item { Name = "+5 Dexterity Vest", SellIn = 10, Quality = 20 },
                 new Item { Name = "Aged Brie", SellIn = 2, Quality = 0 },
@@ -21,8 +20,7 @@ namespace App
                 new Item { Name = "Conjured Mana Cake", SellIn = 3, Quality = 6 }
             };
 
-            var app = new GildedRose(Items);
-
+            var app = new GildedRose(items);
             app.UpdateQuality();
         }
     }

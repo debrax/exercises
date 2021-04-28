@@ -1,6 +1,6 @@
-namespace App
+﻿namespace GildedRose
 {
-    // Can't touch this
+    // No modification allowed (goblin's watching)
     public class Item
     {
         public string Name { get; set; }
