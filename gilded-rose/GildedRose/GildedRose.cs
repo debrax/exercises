@@ -15,29 +15,9 @@ namespace GildedRose
         {
             foreach (Item item in Items)
             {
-                UpdateItem(item);
+                var itemUpdater = ItemUpdaterFactory.CreateItemUpdater(item);
+                itemUpdater.UpdateItem(item);
             }
-        }
-
-        private void UpdateItem(Item item)
-        {
-            ItemUpdater itemUpdater;
-            switch (item.Name)
-            {
-                case "Aged Brie":
-                    itemUpdater = new BrieUpdater();
-                    break;
-                case "Backstage passes to a TAFKAL80ETC concert":
-                    itemUpdater = new BackstagePassesUpdater();
-                    break;
-                case "Sulfuras, Hand of Ragnaros":
-                    itemUpdater = new SulfurasUpdater();
-                    break;
-                default:
-                    itemUpdater = new DefaultItemUpdater();
-                    break;
-            }
-            itemUpdater.UpdateItem(item);
         }
     }
 }
