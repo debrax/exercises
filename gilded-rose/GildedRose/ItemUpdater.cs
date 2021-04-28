@@ -54,4 +54,21 @@
     {
         public override void UpdateItem(UpdatableItem item) { }
     }
+
+    public class ConjuredItemUpdater : ItemUpdater
+    {
+        public override void UpdateItem(UpdatableItem item)
+        {
+            item.DecreaseQuality();
+            item.DecreaseQuality();
+
+            item.DecreaseSellIn();
+
+            if (item.IsSellDatePassed())
+            {
+                item.DecreaseQuality();
+                item.DecreaseQuality();
+            }
+        }
+    }
 }
