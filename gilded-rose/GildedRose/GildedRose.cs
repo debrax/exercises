@@ -21,67 +21,64 @@ namespace GildedRose
 
         private void UpdateItem(Item item)
         {
-            if (item.Name == "Aged Brie")
+            switch (item.Name)
             {
-                if (item.Quality < 50)
-                {
-                    item.Quality++;
-                }
-                item.SellIn--;
-                if (item.SellIn < 0)
-                {
-                    if (item.Quality < 50)
+                case "Aged Brie":
+                    IncreaseQuality(item);
+                    DecreaseSellIn(item);
+                    if (item.SellIn < 0)
                     {
-                        item.Quality++;
+                        IncreaseQuality(item);
                     }
-                }
-            }
-            else if (item.Name == "Backstage passes to a TAFKAL80ETC concert")
-            {
-                if (item.Quality < 50)
-                {
-                    item.Quality++;
-
+                    break;
+                case "Backstage passes to a TAFKAL80ETC concert":
+                    IncreaseQuality(item);
                     if (item.SellIn < 11)
                     {
-                        if (item.Quality < 50)
-                        {
-                            item.Quality++;
-                        }
+                        IncreaseQuality(item);
                     }
-
                     if (item.SellIn < 6)
                     {
-                        if (item.Quality < 50)
-                        {
-                            item.Quality++;
-                        }
+                        IncreaseQuality(item);
                     }
-                }
-                item.SellIn--;
-                if (item.SellIn < 0)
-                {
-                    item.Quality = 0;
-                }
-            }
-            else if (item.Name == "Sulfuras, Hand of Ragnaros")
-            {
-            }
-            else
-            {
-                if (item.Quality > 0)
-                {
-                    item.Quality--;
-                }
-                item.SellIn--;
-                if (item.SellIn < 0)
-                {
-                    if (item.Quality > 0)
+                    DecreaseSellIn(item);
+                    if (item.SellIn < 0)
                     {
-                        item.Quality--;
+                        item.Quality = 0;
                     }
-                }
+                    break;
+                case "Sulfuras, Hand of Ragnaros":
+                    break;
+                default:
+                    DecreaseQuality(item);
+                    DecreaseSellIn(item);
+                    if (item.SellIn < 0)
+                    {
+                        DecreaseQuality(item);
+                    }
+                    break;
             }
+        }
+
+        private static void IncreaseQuality(Item item)
+        {
+            if (item.Quality < 50)
+            {
+                item.Quality++;
+            }
+        }
+
+        private static void DecreaseQuality(Item item)
+        {
+            if (item.Quality > 0)
+            {
+                item.Quality--;
+            }
+        }
+
+        private static void DecreaseSellIn(Item item)
+        {
+            item.SellIn--;
         }
     }
 }
