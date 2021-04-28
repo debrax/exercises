@@ -16,7 +16,7 @@ namespace GildedRose
             foreach (Item item in Items)
             {
                 var itemUpdater = ItemUpdaterFactory.CreateItemUpdater(item);
-                itemUpdater.UpdateItem(item);
+                itemUpdater.UpdateItem(new UpdatableItem(item));
             }
         }
     }

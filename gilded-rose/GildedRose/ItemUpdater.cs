@@ -2,82 +2,56 @@
 {
     public abstract class ItemUpdater
     {
-        public abstract void UpdateItem(Item item);
-
-        protected static void DecreaseSellIn(Item item)
-        {
-            item.SellIn--;
-        }
-
-        protected static void IncreaseQuality(Item item)
-        {
-            if (item.Quality < 50)
-                item.Quality++;
-        }
+        public abstract void UpdateItem(UpdatableItem item);
     }
 
     public class BrieUpdater : ItemUpdater
     {
-        public override void UpdateItem(Item item)
+        public override void UpdateItem(UpdatableItem item)
         {
-            DecreaseSellIn(item);
+            item.DecreaseSellIn();
 
-            IncreaseQuality(item);
+            item.IncreaseQuality();
 
-            if (item.SellIn < 0)
-                IncreaseQuality(item);
+            if (item.IsSellDatePassed())
+                item.IncreaseQuality();
         }
     }
 
     public class BackstagePassesUpdater : ItemUpdater
     {
-        public override void UpdateItem(Item item)
+        public override void UpdateItem(UpdatableItem item)
         {
-            IncreaseQuality(item);
-            if (item.SellIn < 11)
-            {
-                IncreaseQuality(item);
-            }
-            if (item.SellIn < 6)
-            {
-                IncreaseQuality(item);
-            }
-            DecreaseSellIn(item);
-            if (item.SellIn < 0)
-            {
-                ResetQuality(item);
-            }
-        }
+            item.IncreaseQuality();
 
-        private static void ResetQuality(Item item)
-        {
-            item.Quality = 0;
+            if (item.IsSellDateWithinDays(10))
+                item.IncreaseQuality();
+
+            if (item.IsSellDateWithinDays(5))
+                item.IncreaseQuality();
+
+            item.DecreaseSellIn();
+
+            if (item.IsSellDatePassed())
+                item.ResetQuality();
         }
     }
 
     public class DefaultItemUpdater : ItemUpdater
     {
-        public override void UpdateItem(Item item)
+        public override void UpdateItem(UpdatableItem item)
         {
-            DecreaseQuality(item);
-            DecreaseSellIn(item);
-            if (item.SellIn < 0)
-            {
-                DecreaseQuality(item);
-            }
-        }
+            item.DecreaseQuality();
 
-        private static void DecreaseQuality(Item item)
-        {
-            if (item.Quality > 0)
-            {
-                item.Quality--;
-            }
+            item.DecreaseSellIn();
+
+            if (item.IsSellDatePassed())
+                item.DecreaseQuality();
         }
     }
 
     public class SulfurasUpdater : ItemUpdater
     {
-        public override void UpdateItem(Item item) { }
+        public override void UpdateItem(UpdatableItem item) { }
     }
 }

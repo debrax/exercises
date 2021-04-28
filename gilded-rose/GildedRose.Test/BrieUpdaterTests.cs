@@ -13,7 +13,7 @@ namespace GildedRose.Test
         {
             var updater = new BrieUpdater();
             var item = new Item { Name = "Aged Brie", SellIn = sellIn };
-            updater.UpdateItem(item);
+            updater.UpdateItem(new UpdatableItem(item));
             item.SellIn.Should().Be(sellIn - 1);
         }
 
@@ -26,7 +26,7 @@ namespace GildedRose.Test
             var quality = 10;
             var updater = new BrieUpdater();
             var item = new Item { Name = "Aged Brie", SellIn = sellIn, Quality = quality };
-            updater.UpdateItem(item);
+            updater.UpdateItem(new UpdatableItem(item));
             item.Quality.Should().Be(quality + 1);
         }
 
@@ -39,7 +39,7 @@ namespace GildedRose.Test
             var quality = 10;
             var updater = new BrieUpdater();
             var item = new Item { Name = "Aged Brie", SellIn = sellIn, Quality = quality };
-            updater.UpdateItem(item);
+            updater.UpdateItem(new UpdatableItem(item));
             item.Quality.Should().Be(quality + 2);
         }
     }
