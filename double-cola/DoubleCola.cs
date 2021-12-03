@@ -28,22 +28,22 @@ namespace DoubleCola
 		/// <summary>
 		/// Returns the name of the n-th cola drinker or Nobody if no drinker or no cola is drunk.
 		/// <summary>
-        public string GetNthColaDrinker(long colaNumber)
+        public string GetNthColaDrinker(long remainingColas)
         {
-            if (HasNoDrinker() || IsNoColaDrunk(colaNumber))
+            if (HasNoDrinker() || IsNoColaDrunk(remainingColas))
                 return Nobody;
 
-            while (IsNotLastCola(colaNumber))
+            while (IsNotLastCola(remainingColas))
             {
                 var drinkerDoubles = drinkerQueue.Dequeue();
 
                 // Optimization: prevent unnecessary doubles
-                if (IsNthDrinkerAmongDoubles(colaNumber, drinkerDoubles.Count))
+                if (IsNthDrinkerAmongDoubles(remainingColas, drinkerDoubles.Count))
                     return drinkerDoubles.Name;
 
                 // Optimization: all doubles drink cola in once
                 // Time: O(n) => O(1)
-                colaNumber -= drinkerDoubles.Count;
+                remainingColas -= drinkerDoubles.Count;
                 drinkerDoubles.Double();
 
                 drinkerQueue.Enqueue(drinkerDoubles);
@@ -55,25 +55,20 @@ namespace DoubleCola
 
         private bool HasNoDrinker() => drinkerQueue.Count == 0;
 
-        /// <summary>
-        /// Indicates if no cola is drunk at all (negative number of drunk cola considered as 0).
-        /// </summary>
+        // Negative number of drunk considered as 0
         private static bool IsNoColaDrunk(long n) => n <= 0;
 
         private static bool IsNotLastCola(long n) => n > 1;
 
         private static bool IsNthDrinkerAmongDoubles(long n, long doublesCount) => n < doublesCount;
 
-        /// <summary>
-        /// All doubles of a given drinker.
-        /// </summary>
         private class DrinkerDoubles
         {
             public string Name { get; }
             public long Count { get; private set; }
 
             /// <summary>
-            /// Initializes the doubles with a count of 1 for the given name.
+            /// Initializes the doubles with the given name and a count of 1.
             /// </summary>
             public DrinkerDoubles(string name)
             {
