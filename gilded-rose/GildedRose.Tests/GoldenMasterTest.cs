@@ -4,13 +4,18 @@ using System.Collections.Generic;
 using System.Linq;
 using Xunit;
 
-namespace GildedRose.Test
+namespace GildedRose.Tests
 {
+    /// <summary>
+    /// Golden master: copy of the legacy program output for non-regression,
+    /// to compare with new output on every refactoring step.
+    /// Has no domain value and does not replace other tests!
+    /// </summary>
     [UseReporter(typeof(VisualStudioReporter))]
-    public class ApprovalTests
+    public class GoldenMasterTest
     {
         [Fact]
-        public void AllItems()
+        public void GeneratedItems()
         {
             var itemNames = new[]
             {
@@ -18,17 +23,21 @@ namespace GildedRose.Test
                 "Aged Brie",
                 "Elixir of the Mongoose",
                 "Sulfuras, Hand of Ragnaros",
-                "Backstage passes to a TAFKAL80ETC concert",
-                "Conjured Mana Cake"
+                "Backstage passes to a TAFKAL80ETC concert"
             };
             var items = GenerateItems(itemNames).ToList();
 
+            // Run once at first for saving the legacy output in reference file
+            //var app = new GildedRoseLegacy(items);
+
+            // Run on any change to prevent regression
             var app = new GildedRose(items);
             app.UpdateQuality();
 
             Approvals.VerifyAll(items, ItemFormatter);
         }
 
+        // Goal: generate enough cases for acceptable coverage.
         private static IEnumerable<Item> GenerateItems(string[] names)
         {
             foreach (var name in names)
@@ -43,6 +52,6 @@ namespace GildedRose.Test
             }
         }
 
-        private static string ItemFormatter(Item item) => $"{item.Name}, {item.SellIn}, {item.Quality}";
+        private static string ItemFormatter(Item item) => $"{item.Name};{item.SellIn};{item.Quality}";
     }
 }

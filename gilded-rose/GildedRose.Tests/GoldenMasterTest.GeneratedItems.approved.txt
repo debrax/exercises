@@ -1,0 +1,630 @@
++5 Dexterity Vest;14;-25
++5 Dexterity Vest;14;0
++5 Dexterity Vest;14;24
++5 Dexterity Vest;14;49
++5 Dexterity Vest;14;74
++5 Dexterity Vest;14;99
++5 Dexterity Vest;13;-25
++5 Dexterity Vest;13;0
++5 Dexterity Vest;13;24
++5 Dexterity Vest;13;49
++5 Dexterity Vest;13;74
++5 Dexterity Vest;13;99
++5 Dexterity Vest;12;-25
++5 Dexterity Vest;12;0
++5 Dexterity Vest;12;24
++5 Dexterity Vest;12;49
++5 Dexterity Vest;12;74
++5 Dexterity Vest;12;99
++5 Dexterity Vest;11;-25
++5 Dexterity Vest;11;0
++5 Dexterity Vest;11;24
++5 Dexterity Vest;11;49
++5 Dexterity Vest;11;74
++5 Dexterity Vest;11;99
++5 Dexterity Vest;10;-25
++5 Dexterity Vest;10;0
++5 Dexterity Vest;10;24
++5 Dexterity Vest;10;49
++5 Dexterity Vest;10;74
++5 Dexterity Vest;10;99
++5 Dexterity Vest;9;-25
++5 Dexterity Vest;9;0
++5 Dexterity Vest;9;24
++5 Dexterity Vest;9;49
++5 Dexterity Vest;9;74
++5 Dexterity Vest;9;99
++5 Dexterity Vest;8;-25
++5 Dexterity Vest;8;0
++5 Dexterity Vest;8;24
++5 Dexterity Vest;8;49
++5 Dexterity Vest;8;74
++5 Dexterity Vest;8;99
++5 Dexterity Vest;7;-25
++5 Dexterity Vest;7;0
++5 Dexterity Vest;7;24
++5 Dexterity Vest;7;49
++5 Dexterity Vest;7;74
++5 Dexterity Vest;7;99
++5 Dexterity Vest;6;-25
++5 Dexterity Vest;6;0
++5 Dexterity Vest;6;24
++5 Dexterity Vest;6;49
++5 Dexterity Vest;6;74
++5 Dexterity Vest;6;99
++5 Dexterity Vest;5;-25
++5 Dexterity Vest;5;0
++5 Dexterity Vest;5;24
++5 Dexterity Vest;5;49
++5 Dexterity Vest;5;74
++5 Dexterity Vest;5;99
++5 Dexterity Vest;4;-25
++5 Dexterity Vest;4;0
++5 Dexterity Vest;4;24
++5 Dexterity Vest;4;49
++5 Dexterity Vest;4;74
++5 Dexterity Vest;4;99
++5 Dexterity Vest;3;-25
++5 Dexterity Vest;3;0
++5 Dexterity Vest;3;24
++5 Dexterity Vest;3;49
++5 Dexterity Vest;3;74
++5 Dexterity Vest;3;99
++5 Dexterity Vest;2;-25
++5 Dexterity Vest;2;0
++5 Dexterity Vest;2;24
++5 Dexterity Vest;2;49
++5 Dexterity Vest;2;74
++5 Dexterity Vest;2;99
++5 Dexterity Vest;1;-25
++5 Dexterity Vest;1;0
++5 Dexterity Vest;1;24
++5 Dexterity Vest;1;49
++5 Dexterity Vest;1;74
++5 Dexterity Vest;1;99
++5 Dexterity Vest;0;-25
++5 Dexterity Vest;0;0
++5 Dexterity Vest;0;24
++5 Dexterity Vest;0;49
++5 Dexterity Vest;0;74
++5 Dexterity Vest;0;99
++5 Dexterity Vest;-1;-25
++5 Dexterity Vest;-1;0
++5 Dexterity Vest;-1;23
++5 Dexterity Vest;-1;48
++5 Dexterity Vest;-1;73
++5 Dexterity Vest;-1;98
++5 Dexterity Vest;-2;-25
++5 Dexterity Vest;-2;0
++5 Dexterity Vest;-2;23
++5 Dexterity Vest;-2;48
++5 Dexterity Vest;-2;73
++5 Dexterity Vest;-2;98
++5 Dexterity Vest;-3;-25
++5 Dexterity Vest;-3;0
++5 Dexterity Vest;-3;23
++5 Dexterity Vest;-3;48
++5 Dexterity Vest;-3;73
++5 Dexterity Vest;-3;98
++5 Dexterity Vest;-4;-25
++5 Dexterity Vest;-4;0
++5 Dexterity Vest;-4;23
++5 Dexterity Vest;-4;48
++5 Dexterity Vest;-4;73
++5 Dexterity Vest;-4;98
++5 Dexterity Vest;-5;-25
++5 Dexterity Vest;-5;0
++5 Dexterity Vest;-5;23
++5 Dexterity Vest;-5;48
++5 Dexterity Vest;-5;73
++5 Dexterity Vest;-5;98
++5 Dexterity Vest;-6;-25
++5 Dexterity Vest;-6;0
++5 Dexterity Vest;-6;23
++5 Dexterity Vest;-6;48
++5 Dexterity Vest;-6;73
++5 Dexterity Vest;-6;98
+Aged Brie;14;-24
+Aged Brie;14;1
+Aged Brie;14;26
+Aged Brie;14;50
+Aged Brie;14;75
+Aged Brie;14;100
+Aged Brie;13;-24
+Aged Brie;13;1
+Aged Brie;13;26
+Aged Brie;13;50
+Aged Brie;13;75
+Aged Brie;13;100
+Aged Brie;12;-24
+Aged Brie;12;1
+Aged Brie;12;26
+Aged Brie;12;50
+Aged Brie;12;75
+Aged Brie;12;100
+Aged Brie;11;-24
+Aged Brie;11;1
+Aged Brie;11;26
+Aged Brie;11;50
+Aged Brie;11;75
+Aged Brie;11;100
+Aged Brie;10;-24
+Aged Brie;10;1
+Aged Brie;10;26
+Aged Brie;10;50
+Aged Brie;10;75
+Aged Brie;10;100
+Aged Brie;9;-24
+Aged Brie;9;1
+Aged Brie;9;26
+Aged Brie;9;50
+Aged Brie;9;75
+Aged Brie;9;100
+Aged Brie;8;-24
+Aged Brie;8;1
+Aged Brie;8;26
+Aged Brie;8;50
+Aged Brie;8;75
+Aged Brie;8;100
+Aged Brie;7;-24
+Aged Brie;7;1
+Aged Brie;7;26
+Aged Brie;7;50
+Aged Brie;7;75
+Aged Brie;7;100
+Aged Brie;6;-24
+Aged Brie;6;1
+Aged Brie;6;26
+Aged Brie;6;50
+Aged Brie;6;75
+Aged Brie;6;100
+Aged Brie;5;-24
+Aged Brie;5;1
+Aged Brie;5;26
+Aged Brie;5;50
+Aged Brie;5;75
+Aged Brie;5;100
+Aged Brie;4;-24
+Aged Brie;4;1
+Aged Brie;4;26
+Aged Brie;4;50
+Aged Brie;4;75
+Aged Brie;4;100
+Aged Brie;3;-24
+Aged Brie;3;1
+Aged Brie;3;26
+Aged Brie;3;50
+Aged Brie;3;75
+Aged Brie;3;100
+Aged Brie;2;-24
+Aged Brie;2;1
+Aged Brie;2;26
+Aged Brie;2;50
+Aged Brie;2;75
+Aged Brie;2;100
+Aged Brie;1;-24
+Aged Brie;1;1
+Aged Brie;1;26
+Aged Brie;1;50
+Aged Brie;1;75
+Aged Brie;1;100
+Aged Brie;0;-24
+Aged Brie;0;1
+Aged Brie;0;26
+Aged Brie;0;50
+Aged Brie;0;75
+Aged Brie;0;100
+Aged Brie;-1;-23
+Aged Brie;-1;2
+Aged Brie;-1;27
+Aged Brie;-1;50
+Aged Brie;-1;75
+Aged Brie;-1;100
+Aged Brie;-2;-23
+Aged Brie;-2;2
+Aged Brie;-2;27
+Aged Brie;-2;50
+Aged Brie;-2;75
+Aged Brie;-2;100
+Aged Brie;-3;-23
+Aged Brie;-3;2
+Aged Brie;-3;27
+Aged Brie;-3;50
+Aged Brie;-3;75
+Aged Brie;-3;100
+Aged Brie;-4;-23
+Aged Brie;-4;2
+Aged Brie;-4;27
+Aged Brie;-4;50
+Aged Brie;-4;75
+Aged Brie;-4;100
+Aged Brie;-5;-23
+Aged Brie;-5;2
+Aged Brie;-5;27
+Aged Brie;-5;50
+Aged Brie;-5;75
+Aged Brie;-5;100
+Aged Brie;-6;-23
+Aged Brie;-6;2
+Aged Brie;-6;27
+Aged Brie;-6;50
+Aged Brie;-6;75
+Aged Brie;-6;100
+Elixir of the Mongoose;14;-25
+Elixir of the Mongoose;14;0
+Elixir of the Mongoose;14;24
+Elixir of the Mongoose;14;49
+Elixir of the Mongoose;14;74
+Elixir of the Mongoose;14;99
+Elixir of the Mongoose;13;-25
+Elixir of the Mongoose;13;0
+Elixir of the Mongoose;13;24
+Elixir of the Mongoose;13;49
+Elixir of the Mongoose;13;74
+Elixir of the Mongoose;13;99
+Elixir of the Mongoose;12;-25
+Elixir of the Mongoose;12;0
+Elixir of the Mongoose;12;24
+Elixir of the Mongoose;12;49
+Elixir of the Mongoose;12;74
+Elixir of the Mongoose;12;99
+Elixir of the Mongoose;11;-25
+Elixir of the Mongoose;11;0
+Elixir of the Mongoose;11;24
+Elixir of the Mongoose;11;49
+Elixir of the Mongoose;11;74
+Elixir of the Mongoose;11;99
+Elixir of the Mongoose;10;-25
+Elixir of the Mongoose;10;0
+Elixir of the Mongoose;10;24
+Elixir of the Mongoose;10;49
+Elixir of the Mongoose;10;74
+Elixir of the Mongoose;10;99
+Elixir of the Mongoose;9;-25
+Elixir of the Mongoose;9;0
+Elixir of the Mongoose;9;24
+Elixir of the Mongoose;9;49
+Elixir of the Mongoose;9;74
+Elixir of the Mongoose;9;99
+Elixir of the Mongoose;8;-25
+Elixir of the Mongoose;8;0
+Elixir of the Mongoose;8;24
+Elixir of the Mongoose;8;49
+Elixir of the Mongoose;8;74
+Elixir of the Mongoose;8;99
+Elixir of the Mongoose;7;-25
+Elixir of the Mongoose;7;0
+Elixir of the Mongoose;7;24
+Elixir of the Mongoose;7;49
+Elixir of the Mongoose;7;74
+Elixir of the Mongoose;7;99
+Elixir of the Mongoose;6;-25
+Elixir of the Mongoose;6;0
+Elixir of the Mongoose;6;24
+Elixir of the Mongoose;6;49
+Elixir of the Mongoose;6;74
+Elixir of the Mongoose;6;99
+Elixir of the Mongoose;5;-25
+Elixir of the Mongoose;5;0
+Elixir of the Mongoose;5;24
+Elixir of the Mongoose;5;49
+Elixir of the Mongoose;5;74
+Elixir of the Mongoose;5;99
+Elixir of the Mongoose;4;-25
+Elixir of the Mongoose;4;0
+Elixir of the Mongoose;4;24
+Elixir of the Mongoose;4;49
+Elixir of the Mongoose;4;74
+Elixir of the Mongoose;4;99
+Elixir of the Mongoose;3;-25
+Elixir of the Mongoose;3;0
+Elixir of the Mongoose;3;24
+Elixir of the Mongoose;3;49
+Elixir of the Mongoose;3;74
+Elixir of the Mongoose;3;99
+Elixir of the Mongoose;2;-25
+Elixir of the Mongoose;2;0
+Elixir of the Mongoose;2;24
+Elixir of the Mongoose;2;49
+Elixir of the Mongoose;2;74
+Elixir of the Mongoose;2;99
+Elixir of the Mongoose;1;-25
+Elixir of the Mongoose;1;0
+Elixir of the Mongoose;1;24
+Elixir of the Mongoose;1;49
+Elixir of the Mongoose;1;74
+Elixir of the Mongoose;1;99
+Elixir of the Mongoose;0;-25
+Elixir of the Mongoose;0;0
+Elixir of the Mongoose;0;24
+Elixir of the Mongoose;0;49
+Elixir of the Mongoose;0;74
+Elixir of the Mongoose;0;99
+Elixir of the Mongoose;-1;-25
+Elixir of the Mongoose;-1;0
+Elixir of the Mongoose;-1;23
+Elixir of the Mongoose;-1;48
+Elixir of the Mongoose;-1;73
+Elixir of the Mongoose;-1;98
+Elixir of the Mongoose;-2;-25
+Elixir of the Mongoose;-2;0
+Elixir of the Mongoose;-2;23
+Elixir of the Mongoose;-2;48
+Elixir of the Mongoose;-2;73
+Elixir of the Mongoose;-2;98
+Elixir of the Mongoose;-3;-25
+Elixir of the Mongoose;-3;0
+Elixir of the Mongoose;-3;23
+Elixir of the Mongoose;-3;48
+Elixir of the Mongoose;-3;73
+Elixir of the Mongoose;-3;98
+Elixir of the Mongoose;-4;-25
+Elixir of the Mongoose;-4;0
+Elixir of the Mongoose;-4;23
+Elixir of the Mongoose;-4;48
+Elixir of the Mongoose;-4;73
+Elixir of the Mongoose;-4;98
+Elixir of the Mongoose;-5;-25
+Elixir of the Mongoose;-5;0
+Elixir of the Mongoose;-5;23
+Elixir of the Mongoose;-5;48
+Elixir of the Mongoose;-5;73
+Elixir of the Mongoose;-5;98
+Elixir of the Mongoose;-6;-25
+Elixir of the Mongoose;-6;0
+Elixir of the Mongoose;-6;23
+Elixir of the Mongoose;-6;48
+Elixir of the Mongoose;-6;73
+Elixir of the Mongoose;-6;98
+Sulfuras, Hand of Ragnaros;15;-25
+Sulfuras, Hand of Ragnaros;15;0
+Sulfuras, Hand of Ragnaros;15;25
+Sulfuras, Hand of Ragnaros;15;50
+Sulfuras, Hand of Ragnaros;15;75
+Sulfuras, Hand of Ragnaros;15;100
+Sulfuras, Hand of Ragnaros;14;-25
+Sulfuras, Hand of Ragnaros;14;0
+Sulfuras, Hand of Ragnaros;14;25
+Sulfuras, Hand of Ragnaros;14;50
+Sulfuras, Hand of Ragnaros;14;75
+Sulfuras, Hand of Ragnaros;14;100
+Sulfuras, Hand of Ragnaros;13;-25
+Sulfuras, Hand of Ragnaros;13;0
+Sulfuras, Hand of Ragnaros;13;25
+Sulfuras, Hand of Ragnaros;13;50
+Sulfuras, Hand of Ragnaros;13;75
+Sulfuras, Hand of Ragnaros;13;100
+Sulfuras, Hand of Ragnaros;12;-25
+Sulfuras, Hand of Ragnaros;12;0
+Sulfuras, Hand of Ragnaros;12;25
+Sulfuras, Hand of Ragnaros;12;50
+Sulfuras, Hand of Ragnaros;12;75
+Sulfuras, Hand of Ragnaros;12;100
+Sulfuras, Hand of Ragnaros;11;-25
+Sulfuras, Hand of Ragnaros;11;0
+Sulfuras, Hand of Ragnaros;11;25
+Sulfuras, Hand of Ragnaros;11;50
+Sulfuras, Hand of Ragnaros;11;75
+Sulfuras, Hand of Ragnaros;11;100
+Sulfuras, Hand of Ragnaros;10;-25
+Sulfuras, Hand of Ragnaros;10;0
+Sulfuras, Hand of Ragnaros;10;25
+Sulfuras, Hand of Ragnaros;10;50
+Sulfuras, Hand of Ragnaros;10;75
+Sulfuras, Hand of Ragnaros;10;100
+Sulfuras, Hand of Ragnaros;9;-25
+Sulfuras, Hand of Ragnaros;9;0
+Sulfuras, Hand of Ragnaros;9;25
+Sulfuras, Hand of Ragnaros;9;50
+Sulfuras, Hand of Ragnaros;9;75
+Sulfuras, Hand of Ragnaros;9;100
+Sulfuras, Hand of Ragnaros;8;-25
+Sulfuras, Hand of Ragnaros;8;0
+Sulfuras, Hand of Ragnaros;8;25
+Sulfuras, Hand of Ragnaros;8;50
+Sulfuras, Hand of Ragnaros;8;75
+Sulfuras, Hand of Ragnaros;8;100
+Sulfuras, Hand of Ragnaros;7;-25
+Sulfuras, Hand of Ragnaros;7;0
+Sulfuras, Hand of Ragnaros;7;25
+Sulfuras, Hand of Ragnaros;7;50
+Sulfuras, Hand of Ragnaros;7;75
+Sulfuras, Hand of Ragnaros;7;100
+Sulfuras, Hand of Ragnaros;6;-25
+Sulfuras, Hand of Ragnaros;6;0
+Sulfuras, Hand of Ragnaros;6;25
+Sulfuras, Hand of Ragnaros;6;50
+Sulfuras, Hand of Ragnaros;6;75
+Sulfuras, Hand of Ragnaros;6;100
+Sulfuras, Hand of Ragnaros;5;-25
+Sulfuras, Hand of Ragnaros;5;0
+Sulfuras, Hand of Ragnaros;5;25
+Sulfuras, Hand of Ragnaros;5;50
+Sulfuras, Hand of Ragnaros;5;75
+Sulfuras, Hand of Ragnaros;5;100
+Sulfuras, Hand of Ragnaros;4;-25
+Sulfuras, Hand of Ragnaros;4;0
+Sulfuras, Hand of Ragnaros;4;25
+Sulfuras, Hand of Ragnaros;4;50
+Sulfuras, Hand of Ragnaros;4;75
+Sulfuras, Hand of Ragnaros;4;100
+Sulfuras, Hand of Ragnaros;3;-25
+Sulfuras, Hand of Ragnaros;3;0
+Sulfuras, Hand of Ragnaros;3;25
+Sulfuras, Hand of Ragnaros;3;50
+Sulfuras, Hand of Ragnaros;3;75
+Sulfuras, Hand of Ragnaros;3;100
+Sulfuras, Hand of Ragnaros;2;-25
+Sulfuras, Hand of Ragnaros;2;0
+Sulfuras, Hand of Ragnaros;2;25
+Sulfuras, Hand of Ragnaros;2;50
+Sulfuras, Hand of Ragnaros;2;75
+Sulfuras, Hand of Ragnaros;2;100
+Sulfuras, Hand of Ragnaros;1;-25
+Sulfuras, Hand of Ragnaros;1;0
+Sulfuras, Hand of Ragnaros;1;25
+Sulfuras, Hand of Ragnaros;1;50
+Sulfuras, Hand of Ragnaros;1;75
+Sulfuras, Hand of Ragnaros;1;100
+Sulfuras, Hand of Ragnaros;0;-25
+Sulfuras, Hand of Ragnaros;0;0
+Sulfuras, Hand of Ragnaros;0;25
+Sulfuras, Hand of Ragnaros;0;50
+Sulfuras, Hand of Ragnaros;0;75
+Sulfuras, Hand of Ragnaros;0;100
+Sulfuras, Hand of Ragnaros;-1;-25
+Sulfuras, Hand of Ragnaros;-1;0
+Sulfuras, Hand of Ragnaros;-1;25
+Sulfuras, Hand of Ragnaros;-1;50
+Sulfuras, Hand of Ragnaros;-1;75
+Sulfuras, Hand of Ragnaros;-1;100
+Sulfuras, Hand of Ragnaros;-2;-25
+Sulfuras, Hand of Ragnaros;-2;0
+Sulfuras, Hand of Ragnaros;-2;25
+Sulfuras, Hand of Ragnaros;-2;50
+Sulfuras, Hand of Ragnaros;-2;75
+Sulfuras, Hand of Ragnaros;-2;100
+Sulfuras, Hand of Ragnaros;-3;-25
+Sulfuras, Hand of Ragnaros;-3;0
+Sulfuras, Hand of Ragnaros;-3;25
+Sulfuras, Hand of Ragnaros;-3;50
+Sulfuras, Hand of Ragnaros;-3;75
+Sulfuras, Hand of Ragnaros;-3;100
+Sulfuras, Hand of Ragnaros;-4;-25
+Sulfuras, Hand of Ragnaros;-4;0
+Sulfuras, Hand of Ragnaros;-4;25
+Sulfuras, Hand of Ragnaros;-4;50
+Sulfuras, Hand of Ragnaros;-4;75
+Sulfuras, Hand of Ragnaros;-4;100
+Sulfuras, Hand of Ragnaros;-5;-25
+Sulfuras, Hand of Ragnaros;-5;0
+Sulfuras, Hand of Ragnaros;-5;25
+Sulfuras, Hand of Ragnaros;-5;50
+Sulfuras, Hand of Ragnaros;-5;75
+Sulfuras, Hand of Ragnaros;-5;100
+Backstage passes to a TAFKAL80ETC concert;14;-24
+Backstage passes to a TAFKAL80ETC concert;14;1
+Backstage passes to a TAFKAL80ETC concert;14;26
+Backstage passes to a TAFKAL80ETC concert;14;50
+Backstage passes to a TAFKAL80ETC concert;14;75
+Backstage passes to a TAFKAL80ETC concert;14;100
+Backstage passes to a TAFKAL80ETC concert;13;-24
+Backstage passes to a TAFKAL80ETC concert;13;1
+Backstage passes to a TAFKAL80ETC concert;13;26
+Backstage passes to a TAFKAL80ETC concert;13;50
+Backstage passes to a TAFKAL80ETC concert;13;75
+Backstage passes to a TAFKAL80ETC concert;13;100
+Backstage passes to a TAFKAL80ETC concert;12;-24
+Backstage passes to a TAFKAL80ETC concert;12;1
+Backstage passes to a TAFKAL80ETC concert;12;26
+Backstage passes to a TAFKAL80ETC concert;12;50
+Backstage passes to a TAFKAL80ETC concert;12;75
+Backstage passes to a TAFKAL80ETC concert;12;100
+Backstage passes to a TAFKAL80ETC concert;11;-24
+Backstage passes to a TAFKAL80ETC concert;11;1
+Backstage passes to a TAFKAL80ETC concert;11;26
+Backstage passes to a TAFKAL80ETC concert;11;50
+Backstage passes to a TAFKAL80ETC concert;11;75
+Backstage passes to a TAFKAL80ETC concert;11;100
+Backstage passes to a TAFKAL80ETC concert;10;-24
+Backstage passes to a TAFKAL80ETC concert;10;1
+Backstage passes to a TAFKAL80ETC concert;10;26
+Backstage passes to a TAFKAL80ETC concert;10;50
+Backstage passes to a TAFKAL80ETC concert;10;75
+Backstage passes to a TAFKAL80ETC concert;10;100
+Backstage passes to a TAFKAL80ETC concert;9;-23
+Backstage passes to a TAFKAL80ETC concert;9;2
+Backstage passes to a TAFKAL80ETC concert;9;27
+Backstage passes to a TAFKAL80ETC concert;9;50
+Backstage passes to a TAFKAL80ETC concert;9;75
+Backstage passes to a TAFKAL80ETC concert;9;100
+Backstage passes to a TAFKAL80ETC concert;8;-23
+Backstage passes to a TAFKAL80ETC concert;8;2
+Backstage passes to a TAFKAL80ETC concert;8;27
+Backstage passes to a TAFKAL80ETC concert;8;50
+Backstage passes to a TAFKAL80ETC concert;8;75
+Backstage passes to a TAFKAL80ETC concert;8;100
+Backstage passes to a TAFKAL80ETC concert;7;-23
+Backstage passes to a TAFKAL80ETC concert;7;2
+Backstage passes to a TAFKAL80ETC concert;7;27
+Backstage passes to a TAFKAL80ETC concert;7;50
+Backstage passes to a TAFKAL80ETC concert;7;75
+Backstage passes to a TAFKAL80ETC concert;7;100
+Backstage passes to a TAFKAL80ETC concert;6;-23
+Backstage passes to a TAFKAL80ETC concert;6;2
+Backstage passes to a TAFKAL80ETC concert;6;27
+Backstage passes to a TAFKAL80ETC concert;6;50
+Backstage passes to a TAFKAL80ETC concert;6;75
+Backstage passes to a TAFKAL80ETC concert;6;100
+Backstage passes to a TAFKAL80ETC concert;5;-23
+Backstage passes to a TAFKAL80ETC concert;5;2
+Backstage passes to a TAFKAL80ETC concert;5;27
+Backstage passes to a TAFKAL80ETC concert;5;50
+Backstage passes to a TAFKAL80ETC concert;5;75
+Backstage passes to a TAFKAL80ETC concert;5;100
+Backstage passes to a TAFKAL80ETC concert;4;-22
+Backstage passes to a TAFKAL80ETC concert;4;3
+Backstage passes to a TAFKAL80ETC concert;4;28
+Backstage passes to a TAFKAL80ETC concert;4;50
+Backstage passes to a TAFKAL80ETC concert;4;75
+Backstage passes to a TAFKAL80ETC concert;4;100
+Backstage passes to a TAFKAL80ETC concert;3;-22
+Backstage passes to a TAFKAL80ETC concert;3;3
+Backstage passes to a TAFKAL80ETC concert;3;28
+Backstage passes to a TAFKAL80ETC concert;3;50
+Backstage passes to a TAFKAL80ETC concert;3;75
+Backstage passes to a TAFKAL80ETC concert;3;100
+Backstage passes to a TAFKAL80ETC concert;2;-22
+Backstage passes to a TAFKAL80ETC concert;2;3
+Backstage passes to a TAFKAL80ETC concert;2;28
+Backstage passes to a TAFKAL80ETC concert;2;50
+Backstage passes to a TAFKAL80ETC concert;2;75
+Backstage passes to a TAFKAL80ETC concert;2;100
+Backstage passes to a TAFKAL80ETC concert;1;-22
+Backstage passes to a TAFKAL80ETC concert;1;3
+Backstage passes to a TAFKAL80ETC concert;1;28
+Backstage passes to a TAFKAL80ETC concert;1;50
+Backstage passes to a TAFKAL80ETC concert;1;75
+Backstage passes to a TAFKAL80ETC concert;1;100
+Backstage passes to a TAFKAL80ETC concert;0;-22
+Backstage passes to a TAFKAL80ETC concert;0;3
+Backstage passes to a TAFKAL80ETC concert;0;28
+Backstage passes to a TAFKAL80ETC concert;0;50
+Backstage passes to a TAFKAL80ETC concert;0;75
+Backstage passes to a TAFKAL80ETC concert;0;100
+Backstage passes to a TAFKAL80ETC concert;-1;0
+Backstage passes to a TAFKAL80ETC concert;-1;0
+Backstage passes to a TAFKAL80ETC concert;-1;0
+Backstage passes to a TAFKAL80ETC concert;-1;0
+Backstage passes to a TAFKAL80ETC concert;-1;0
+Backstage passes to a TAFKAL80ETC concert;-1;0
+Backstage passes to a TAFKAL80ETC concert;-2;0
+Backstage passes to a TAFKAL80ETC concert;-2;0
+Backstage passes to a TAFKAL80ETC concert;-2;0
+Backstage passes to a TAFKAL80ETC concert;-2;0
+Backstage passes to a TAFKAL80ETC concert;-2;0
+Backstage passes to a TAFKAL80ETC concert;-2;0
+Backstage passes to a TAFKAL80ETC concert;-3;0
+Backstage passes to a TAFKAL80ETC concert;-3;0
+Backstage passes to a TAFKAL80ETC concert;-3;0
+Backstage passes to a TAFKAL80ETC concert;-3;0
+Backstage passes to a TAFKAL80ETC concert;-3;0
+Backstage passes to a TAFKAL80ETC concert;-3;0
+Backstage passes to a TAFKAL80ETC concert;-4;0
+Backstage passes to a TAFKAL80ETC concert;-4;0
+Backstage passes to a TAFKAL80ETC concert;-4;0
+Backstage passes to a TAFKAL80ETC concert;-4;0
+Backstage passes to a TAFKAL80ETC concert;-4;0
+Backstage passes to a TAFKAL80ETC concert;-4;0
+Backstage passes to a TAFKAL80ETC concert;-5;0
+Backstage passes to a TAFKAL80ETC concert;-5;0
+Backstage passes to a TAFKAL80ETC concert;-5;0
+Backstage passes to a TAFKAL80ETC concert;-5;0
+Backstage passes to a TAFKAL80ETC concert;-5;0
+Backstage passes to a TAFKAL80ETC concert;-5;0
+Backstage passes to a TAFKAL80ETC concert;-6;0
+Backstage passes to a TAFKAL80ETC concert;-6;0
+Backstage passes to a TAFKAL80ETC concert;-6;0
+Backstage passes to a TAFKAL80ETC concert;-6;0
+Backstage passes to a TAFKAL80ETC concert;-6;0
+Backstage passes to a TAFKAL80ETC concert;-6;0

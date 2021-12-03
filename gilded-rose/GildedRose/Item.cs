@@ -1,6 +1,8 @@
 ﻿namespace GildedRose
 {
-    // No modification allowed (goblin's watching)
+    /// <summary>
+    /// Item model, untouched (goblin's watching).
+    /// </summary>
     public class Item
     {
         public string Name { get; set; }

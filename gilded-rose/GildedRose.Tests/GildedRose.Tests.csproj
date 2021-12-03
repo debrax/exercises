@@ -11,8 +11,8 @@
     <ProjectGuid>{6523F974-D847-4C86-AD83-08C268F8E008}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GildedRose.Test</RootNamespace>
-    <AssemblyName>GildedRose.Test</AssemblyName>
+    <RootNamespace>GildedRose.Tests</RootNamespace>
+    <AssemblyName>GildedRose.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -107,8 +107,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApprovalTests.cs" />
-    <Compile Include="BrieUpdaterTests.cs" />
+    <Compile Include="GoldenMasterTest.cs" />
+    <Compile Include="ConjuredItemTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -124,8 +124,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ApprovalTests.AllItems.approved.txt" />
-    <Content Include="ApprovalTests.AllItems.received.txt" />
+    <Content Include="GoldenMasterTest.GeneratedItems.approved.txt" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

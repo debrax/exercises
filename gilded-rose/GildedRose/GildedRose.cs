@@ -1,22 +1,26 @@
-﻿using System.Collections.Generic;
+﻿using GildedRose.ItemUpdate;
+using System.Collections.Generic;
 
 namespace GildedRose
 {
+    /// <summary>
+    /// New item updater (refactoring started from the legacy copy).
+    /// </summary>
     public class GildedRose
     {
-        IList<Item> Items;
+        private readonly IEnumerable<Item> items;
 
-        public GildedRose(IList<Item> Items)
+        public GildedRose(IEnumerable<Item> items)
         {
-            this.Items = Items;
+            this.items = items;
         }
 
         public void UpdateQuality()
         {
-            foreach (Item item in Items)
+            foreach (var item in items)
             {
-                var itemUpdater = ItemUpdaterFactory.CreateItemUpdater(item);
-                itemUpdater.UpdateItem(new UpdatableItem(item));
+                var gildedRoseItem = GildedRoseItemFactory.Create(item);
+                gildedRoseItem.Update();
             }
         }
     }
