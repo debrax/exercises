@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ItemUpdate\GildedRoseItem.cs" />
+    <Compile Include="GildedRoseLegacy.cs" />
     <Compile Include="GildedRose.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="ItemUpdate\GildedRoseItemFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
