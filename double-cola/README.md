@@ -1,4 +1,4 @@
-﻿# Double Cola
+# Double Cola
 
 Original kata by [AlexIsHappy](https://www.codewars.com/users/AlexIsHappy) on [CodeWars](https://www.codewars.com/).  
 Topics: C#, TDD, optimization  
